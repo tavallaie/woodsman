@@ -45,5 +45,5 @@ jobs:
         - name: publish
           # gh-action-pypi-publish uses TWINE_PASSWORD automatically
           uses: pypa/gh-action-pypi-publish@release/v1
-          with:
-            password: ${{ steps.mint-token.outputs.api-token }}
+        #   with:
+        #     password: ${{ steps.mint-token.outputs.api-token }}
