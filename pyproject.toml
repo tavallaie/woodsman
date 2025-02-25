@@ -3,6 +3,7 @@ name = "woodsman"
 version = "0.1.0"
 description = "Woodsman is a generic SQL database viewer Inspired by Kino's iconic weapon, it empowers users to navigate, explore, and export SQL databases (SQLite and PostgreSQL) with interactive data exploration, filtering, and export capabilities."
 readme = "README.md"
+license = {text = "MIT License"}
 authors = [
     { name = "Ali Tavallaie", email = "a.tavallaie@gmail.com" }
 ]
@@ -18,5 +19,5 @@ dependencies = [
 woodsman = "woodsman.main:run"
 
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
